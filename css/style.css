@@ -1,4 +1,51 @@
 .main {
 	background-color: antiquewhite;
 	color: saddlebrown;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+	background-color: rgb(138, 42, 42);
+	margin: 0px;
+	padding: 0px;
+	position: sticky;
+	top: 0;
+    width: 100%; 
+    z-index: 1000;
+}
+.nav a {
+	color: rgb(255, 253, 253);
+	text-decoration-line: none;
+	display: flex;
+	padding: 7px;
+}
+.nav ul {
+	text-align: center;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+.nav li {
+	padding: 5px;
+	margin: 5px;
+	text-shadow: 1px 1px 1px black;
+}
+.title {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 1px 1px 1px black;
+}
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
 }
