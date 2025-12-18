@@ -3,6 +3,15 @@
 	color: saddlebrown;
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main main {
+	max-width: 1440px;
 }
 
 .nav {
@@ -92,6 +101,8 @@
 .mimg {
 	width: 100%;
 	height: 400px;
+	display: flex;
+	justify-content: center;
 }
 
 .mimg img {
@@ -105,8 +116,8 @@
 	border: 0px solid;
 	margin: 20px;
 	font-size: large;
-    background-color:rgb(138, 42, 42);
-    color:rgb(255, 255, 255);
+	background-color: rgb(138, 42, 42);
+	color: rgb(255, 255, 255);
 }
 .subt > div {
 	display: flex;
@@ -124,9 +135,16 @@
 	}
 }
 @media (max-width: 42em) {
-    .subt{
-        flex-direction: column;
-    }
+	.mimg img {
+		height: 300px;
+	}
+	.mimg {
+		height: 200px;
+	}
+	.subt {
+		flex-direction: column;
+		align-items: center;
+	}
 	.grid-container {
 		display: grid;
 		padding: 20px;
