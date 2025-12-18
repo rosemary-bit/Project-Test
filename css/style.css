@@ -20,8 +20,6 @@
 	display: flex;
 	padding: 7px;
 	justify-content: end;
-	
-	
 }
 .nav ul {
 	text-align: center;
@@ -31,13 +29,12 @@
 	justify-content: space-between;
 	align-items: center;
 	list-style: none;
-	
 }
-.list{
+.list {
 	display: flex;
 	flex-direction: row;
 }
-.nav  li {
+.nav li {
 	padding: 5px;
 	margin: 5px;
 	text-shadow: 1px 1px 1px black;
@@ -59,7 +56,7 @@
 	display: grid;
 	padding: 20px;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 20px;
+	gap: 2rem;
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -69,58 +66,69 @@
 	align-items: center;
 	text-align: center;
 	border: 1px solid #000000;
-    background-color: rgb(138, 42, 42);
+	background-color: rgb(138, 42, 42);
 	border-radius: 10px;
 	padding: 15px;
+	margin: 0px;
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 	transition: transform 0.3s;
 }
-.thumb img:hover{
-    transform: translateY(-5px);
+.thumb img:hover {
+	transform: translateY(-5px);
 }
-.thumb figcaption{
-    color:  rgb(255, 253, 253);
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0;
+.thumb figcaption {
+	color: rgb(255, 253, 253);
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
 }
-.thumb img{
-    object-fit: cover;
-    height: 200px;
-    width: 100%;
-    border-radius: 8px;
-    border-bottom: 15px;
-}
-
-@media(max-width: 56em){
-.grid-container {
-	display: grid;
-	padding: 20px;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 20px;
-	max-width: 900px;
-	margin: 0 auto;
-}
-}
-@media(max-width: 42em){
-.grid-container {
-	display: grid;
-	padding: 20px;
-	grid-template-columns: repeat(1, 1fr);
-	gap: 20px;
-	max-width: 900px;
-	margin: 0 auto;
-}
-.thumb img{
-    object-fit: cover;
-    height: 200px;
-    width: 200px;
-    border-radius: 8px;
-    border-bottom: 15px;
-}
+.thumb img {
+	object-fit: cover;
+	height: 200px;
+	width: 100%;
+	border-radius: 8px;
+	border-bottom: 15px;
 }
 
-footer{
-    text-align: center;
-    text-shadow: 1px 1px 0.5px rgb(39, 38, 38);
+@media (max-width: 56em) {
+	.grid-container {
+		display: grid;
+		padding: 20px;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 42em) {
+	.grid-container {
+		display: grid;
+		padding: 20px;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 2rem;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	.thumb img {
+		object-fit: cover;
+		height: 200px;
+		width: 200px;
+		border-radius: 8px;
+		border-bottom: 15px;
+	}
+	.nav {
+		font-size: small;
+	}
+	.nav li {
+		margin: 5px 0px;
+		padding: 4px 0px;
+	}
+	.thumb {
+		padding: 5px;
+	}
+}
+
+footer {
+	text-align: center;
+	text-shadow: 1px 1px 0.5px rgb(39, 38, 38);
 }
