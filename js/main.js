@@ -1,18 +1,20 @@
+document.getElementById("highlight").style.backgroundColor = "rgb(99, 14, 14)";
+
 document.getElementById("colo").onclick = () => {
-    window.location.href= "Colosseum.html" ;
+	window.location.href = "Colosseum.html";
 };
 document.getElementById("baalbek").onclick = () => {
-    window.location.href= "Baalbek Temple.html" ;
+	window.location.href = "Baalbek Temple.html";
 };
 document.getElementById("rock").onclick = () => {
-    window.location.href= "Raouché Rocks.html" ;
+	window.location.href = "Raouché Rocks.html";
 };
 document.getElementById("eiffel").onclick = () => {
-    window.location.href= "Eiffel Tower.html" ;
+	window.location.href = "Eiffel Tower.html";
 };
 document.getElementById("statue").onclick = () => {
-    window.location.href= "Statue of Liberty.html" ;
+	window.location.href = "Statue of Liberty.html";
 };
 document.getElementById("tokyo").onclick = () => {
-    window.location.href= "Fushimi Inari Shrine.html" ;
+	window.location.href = "Fushimi Inari Shrine.html";
 };

@@ -30,6 +30,10 @@
 	padding: 7px;
 	justify-content: end;
 }
+#highlight{
+ border: auto solid;
+ background-color: rgb(138, 42, 42); }
+
 .nav ul {
 	text-align: center;
 	display: flex;
